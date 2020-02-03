@@ -1,0 +1,51 @@
+env:
+    browser: true
+    es6: true
+extends: 'eslint:all'
+parserOptions:
+    ecmaVersion: 2020
+    sourceType: module
+rules:
+    indent:
+        - off
+    linebreak-style:
+        - error
+        - unix
+    lines-around-comment:
+        - off
+    quotes:
+        - error
+        - single
+    semi:
+        - error
+        - always
+    array-element-newline:
+        - off
+    padded-blocks:
+        - off
+    space-before-function-paren:
+        - off
+    dot-notation:
+        - off
+    id-length:
+        - off
+    max-params:
+        - error
+        - max: 6
+    max-statements:
+        - error
+        - max: 20
+    function-call-argument-newline:
+        - off
+    no-undefined:
+        - off
+    no-extra-parens:
+        - off
+    sort-vars:
+        - off
+    no-magic-numbers:
+        - off
+    sort-imports:
+        - off
+    function-paren-newline:
+        - off
